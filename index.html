@@ -2,13 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Drumsynth Static</title>
   </head>
-  <body>
-    <div id="app"></div>
+  <body class="container mx-auto">
+    <main>
+           <section class="hero px-[120px] ">
+             <header class="flex justify-between items-center">
+                <div class="logo flex gap-[68px] items-center">
+                   <p class="contrail-one-regular text-3xl">drymsynth</p>
+                   <a href="#" class="text-xl" >Home</a>
+                </div>
+                <nav>
+                    <a href="#">Synths</a>
+                    <a href="#">audio gallary</a>
+                    <a href="#">join up</a>
+                </nav>
+             </header>
+             <div>
+                <h1>The Next Generation’s Drums.</h1>
+                <p class="font-inter">Utilizing the latest AI technology, drumsynth offers a hybrid mix of acoustic and AI drum sounds.</p>
+             </div>
+             <div class="image">
+              <img src="./public/asset 1.jpg" alt="dj mixer">
+             </div>
+           </section>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

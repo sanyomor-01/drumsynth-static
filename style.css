@@ -1,0 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/bebas-kai');
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.contrail-one-regular {
+  font-family: "Contrail One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-inter{
+  font-family: "Inter", sans-serif;
+}
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Bebas Kai', sans-serif;
+                                                
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
